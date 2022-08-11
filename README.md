@@ -53,9 +53,20 @@ In this project, you will investigate the detection of misinformation in a novel
 
 15/07/2022
 
-- TODO: model for the image
+- ~~TODO: model for the image~~
 
 22/07/2022
 
-- TODO: feature for the user comment
+- ~~TODO: feature for the user comment~~
+
+29/07/2022
+
+- TODO: feature fusion
+
+05/08/2022
+
+- TODO: feature fusion
+- TODO: combine new model and test on it
+
+
 

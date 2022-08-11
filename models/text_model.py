@@ -170,6 +170,7 @@ def train(model, train_loader, val_loader, epochs=4, evaluate=True):
 
 # TODO: Evaluation metrics
 def evaluation(model, valid_loader):
+    model.eval()
     with torch.no_grad():
         for input_ids, attention_mask, label in valid_loader:
             output = model(input_ids, attention_mask)
