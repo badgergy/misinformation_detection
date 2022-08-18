@@ -19,9 +19,9 @@ from tqdm import tqdm
 import matplotlib.pyplot as plt
 
 DATA_DIR = "~/Projects/Datasets/public_news_set"
-TRAIN_FILE = "multimodal_train_cleaned.tsv"
-TEST_FILE = "multimodal_test_cleaned.tsv"
-VALID_FLIE = "multimodal_valid_cleaned.tsv"
+TRAIN_FILE = "train_1000.tsv"
+TEST_FILE = "test_100.tsv"
+VALID_FLIE = "valid_100.tsv"
 
 MODEL_CKPT = "distilbert-base-uncased"
 # MODEL_CKPT = "bert-base-uncased"
@@ -165,16 +165,33 @@ def train(model, train_loader, val_loader, epochs=4, evaluate=True):
 
         # TODO: test model on val_set
         if evaluate:
-            evaluation()
+            print(evaluation(model, loss_fn, val_loader))
 
 
 # TODO: Evaluation metrics
-def evaluation(model, valid_loader):
+def evaluation(model, criterion, valid_loader):
     model.eval()
-    with torch.no_grad():
-        for input_ids, attention_mask, label in valid_loader:
-            output = model(input_ids, attention_mask)
-            logits = F()
+
+    val_accuracy = []
+    val_loss = []
+
+    for input_ids, attention_masks, label in tqdm(valid_loader, total=len(valid_loader)):
+    
+            input_ids = input_ids.to(DEVICE)
+            attention_masks = attention_masks.to(DEVICE)
+            label = label.to(DEVICE)
+
+            output = model(input_ids, attention_masks)
+            print(output)
+            loss = criterion(output, label)
+            val_loss.append(loss.item())
+            preds = torch.argmax(output, 1).to("cpu")
+            accuracy = (preds == label.to('cpu')).numpy().mean() * 100
+            val_accuracy.append(accuracy)
+    
+    val_loss = np.mean(val_loss)
+    val_accuracy = np.mean(val_accuracy)
+    return val_loss, val_accuracy
 
 def test(model, test_loader):
     pass
