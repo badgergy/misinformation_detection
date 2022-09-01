@@ -1,0 +1,41 @@
+Epoch 0/4
+  8%|▊         | 128/1706 [01:17<15:35,  1.69it/s, loss=tensor(1.1948, device='cuda:0', grad_fn=<NllLossBackward0>)]/home/yangu/miniconda3/envs/th_env/lib/python3.10/site-packages/PIL/Image.py:945: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+ 95%|█████████▌| 1629/1706 [16:16<00:44,  1.74it/s, loss=tensor(0.9549, device='cuda:0', grad_fn=<NllLossBackward0>)]/home/yangu/miniconda3/envs/th_env/lib/python3.10/site-packages/PIL/Image.py:2896: DecompressionBombWarning: Image size (110718270 pixels) exceeds limit of 89478485 pixels, could be decompression bomb DOS attack.
+  warnings.warn(
+100%|██████████| 1706/1706 [17:03<00:00,  1.67it/s, loss=tensor(0.5773, device='cuda:0', grad_fn=<NllLossBackward0>)]
+100%|██████████| 214/214 [02:19<00:00,  1.53it/s]
+(0.9924156036332389, 0.6797118380062305, 0.6548185738198155)
+Epoch 1/4
+  3%|▎         | 47/1706 [00:27<15:30,  1.78it/s, loss=tensor(0.5981, device='cuda:0', grad_fn=<NllLossBackward0>)]/home/yangu/miniconda3/envs/th_env/lib/python3.10/site-packages/PIL/Image.py:945: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+ 53%|█████▎    | 905/1706 [08:57<08:28,  1.58it/s, loss=tensor(0.6382, device='cuda:0', grad_fn=<NllLossBackward0>)]/home/yangu/miniconda3/envs/th_env/lib/python3.10/site-packages/PIL/Image.py:2896: DecompressionBombWarning: Image size (110718270 pixels) exceeds limit of 89478485 pixels, could be decompression bomb DOS attack.
+  warnings.warn(
+100%|██████████| 1706/1706 [16:47<00:00,  1.69it/s, loss=tensor(0.8282, device='cuda:0', grad_fn=<NllLossBackward0>)]
+100%|██████████| 214/214 [02:19<00:00,  1.53it/s]
+(1.2107341776941425, 0.5878602024922118, 0.5637056818990662)
+Epoch 2/4
+  6%|▌         | 96/1706 [00:56<15:18,  1.75it/s, loss=tensor(0.7438, device='cuda:0', grad_fn=<NllLossBackward0>)]/home/yangu/miniconda3/envs/th_env/lib/python3.10/site-packages/PIL/Image.py:945: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+ 45%|████▌     | 774/1706 [07:35<07:46,  2.00it/s, loss=tensor(0.7590, device='cuda:0', grad_fn=<NllLossBackward0>)]/home/yangu/miniconda3/envs/th_env/lib/python3.10/site-packages/PIL/Image.py:2896: DecompressionBombWarning: Image size (110718270 pixels) exceeds limit of 89478485 pixels, could be decompression bomb DOS attack.
+  warnings.warn(
+100%|██████████| 1706/1706 [16:46<00:00,  1.69it/s, loss=tensor(0.5964, device='cuda:0', grad_fn=<NllLossBackward0>)]
+100%|██████████| 214/214 [02:19<00:00,  1.54it/s]
+(0.9346453021062868, 0.6731649143302182, 0.660376567391987)
+Epoch 3/4
+  1%|▏         | 23/1706 [00:14<16:16,  1.72it/s, loss=tensor(0.4999, device='cuda:0', grad_fn=<NllLossBackward0>)]/home/yangu/miniconda3/envs/th_env/lib/python3.10/site-packages/PIL/Image.py:945: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+ 27%|██▋       | 459/1706 [04:30<11:17,  1.84it/s, loss=tensor(0.5726, device='cuda:0', grad_fn=<NllLossBackward0>)]/home/yangu/miniconda3/envs/th_env/lib/python3.10/site-packages/PIL/Image.py:2896: DecompressionBombWarning: Image size (110718270 pixels) exceeds limit of 89478485 pixels, could be decompression bomb DOS attack.
+  warnings.warn(
+100%|██████████| 1706/1706 [16:46<00:00,  1.69it/s, loss=tensor(0.4278, device='cuda:0', grad_fn=<NllLossBackward0>)]
+100%|██████████| 214/214 [02:19<00:00,  1.54it/s]
+(0.8002961836407118, 0.6707554517133957, 0.6492942095045882)
+Epoch 4/4
+  5%|▌         | 87/1706 [00:49<15:41,  1.72it/s, loss=tensor(0.5913, device='cuda:0', grad_fn=<NllLossBackward0>)]/home/yangu/miniconda3/envs/th_env/lib/python3.10/site-packages/PIL/Image.py:945: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+  8%|▊         | 139/1706 [01:22<19:15,  1.36it/s, loss=tensor(0.4646, device='cuda:0', grad_fn=<NllLossBackward0>)]/home/yangu/miniconda3/envs/th_env/lib/python3.10/site-packages/PIL/Image.py:2896: DecompressionBombWarning: Image size (110718270 pixels) exceeds limit of 89478485 pixels, could be decompression bomb DOS attack.
+  warnings.warn(
+100%|██████████| 1706/1706 [16:47<00:00,  1.69it/s, loss=tensor(1.1549, device='cuda:0', grad_fn=<NllLossBackward0>)]
+100%|██████████| 214/214 [02:19<00:00,  1.53it/s](0.7347763374308559, 0.7255646417445482, 0.7262114126948632)
+
+Test result: (0.7728862527096383, 0.7193584501557632, 0.7203197505939838)

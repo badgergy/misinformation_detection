@@ -61,12 +61,19 @@ In this project, you will investigate the detection of misinformation in a novel
 
 29/07/2022
 
-- TODO: feature fusion
+- ~~TODO: feature fusion~~
 
 05/08/2022
 
-- TODO: feature fusion
-- TODO: combine new model and test on it
+- ~~TODO: feature fusion~~
+- ~~TODO: combine new model and test on it~~
 
+12/08/2022
 
+- ~~TODO: combine new models and test on them~~
+- ~~TODO: change ways of feature fusion~~
 
+20/08/2022
+
+- ~~TODO: change feature fusion methods~~
+- TODO: start to compose the dissertation

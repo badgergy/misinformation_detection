@@ -1,0 +1,119 @@
+{'loss': 0.9433, 'learning_rate': 0.0001500366461448256, 'epoch': 1.0}
+Using deprecated `--per_gpu_eval_batch_size` argument which will be removed in a future version. Using `--per_device_eval_batch_size` is preferred.
+***** Running Evaluation *****
+  Num examples = 13644
+  Batch size = 8
+Using deprecated `--per_gpu_eval_batch_size` argument which will be removed in a future version. Using `--per_device_eval_batch_size` is preferred.{'eval_loss': 0.809918224811554, 'eval_accuracy': 0.6967897977132805, 'eval_runtime': 168.5222, 'eval_samples_per_second': 80.963, 'eval_steps_per_second': 5.062, 'epoch': 1.0}
+Output exceeds the size limit. Open the full output data in a text editor
+Saving model checkpoint to ./vit-base-beans/checkpoint-7000
+Configuration saved in ./vit-base-beans/checkpoint-7000/config.json
+Model weights saved in ./vit-base-beans/checkpoint-7000/pytorch_model.bin
+Feature extractor saved in ./vit-base-beans/checkpoint-7000/preprocessor_config.json
+Deleting older checkpoint [vit-base-beans/checkpoint-6000] due to args.save_total_limit
+/home/yangu/miniconda3/envs/th_env/lib/python3.10/site-packages/PIL/Image.py:945: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+Saving model checkpoint to ./vit-base-beans/checkpoint-7500
+Configuration saved in ./vit-base-beans/checkpoint-7500/config.json
+Model weights saved in ./vit-base-beans/checkpoint-7500/pytorch_model.bin
+Feature extractor saved in ./vit-base-beans/checkpoint-7500/preprocessor_config.json
+Deleting older checkpoint [vit-base-beans/checkpoint-6500] due to args.save_total_limit
+Saving model checkpoint to ./vit-base-beans/checkpoint-8000
+Configuration saved in ./vit-base-beans/checkpoint-8000/config.json
+Model weights saved in ./vit-base-beans/checkpoint-8000/pytorch_model.bin
+Feature extractor saved in ./vit-base-beans/checkpoint-8000/preprocessor_config.json
+Deleting older checkpoint [vit-base-beans/checkpoint-7000] due to args.save_total_limit
+/home/yangu/miniconda3/envs/th_env/lib/python3.10/site-packages/PIL/Image.py:945: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+Saving model checkpoint to ./vit-base-beans/checkpoint-8500
+Configuration saved in ./vit-base-beans/checkpoint-8500/config.json
+Model weights saved in ./vit-base-beans/checkpoint-8500/pytorch_model.bin
+Feature extractor saved in ./vit-base-beans/checkpoint-8500/preprocessor_config.json
+Deleting older checkpoint [vit-base-beans/checkpoint-7500] due to args.save_total_limit
+/home/yangu/miniconda3/envs/th_env/lib/python3.10/site-packages/PIL/Image.py:2896: DecompressionBombWarning: Image size (110718270 pixels) exceeds limit of 89478485 pixels, could be decompression bomb DOS attack.
+...
+Configuration saved in ./vit-base-beans/checkpoint-13500/config.json
+Model weights saved in ./vit-base-beans/checkpoint-13500/pytorch_model.bin
+Feature extractor saved in ./vit-base-beans/checkpoint-13500/preprocessor_config.json
+Deleting older checkpoint [vit-base-beans/checkpoint-12500] due to args.save_total_limit
+{'loss': 0.7252, 'learning_rate': 0.00010005863383172091, 'epoch': 2.0}
+Using deprecated `--per_gpu_eval_batch_size` argument which will be removed in a future version. Using `--per_device_eval_batch_size` is preferred.
+***** Running Evaluation *****
+  Num examples = 13644
+  Batch size = 8
+Using deprecated `--per_gpu_eval_batch_size` argument which will be removed in a future version. Using `--per_device_eval_batch_size` is preferred.{'eval_loss': 0.7269185781478882, 'eval_accuracy': 0.7331427733802404, 'eval_runtime': 168.2311, 'eval_samples_per_second': 81.103, 'eval_steps_per_second': 5.07, 'epoch': 2.0}
+Output exceeds the size limit. Open the full output data in a text editor
+Saving model checkpoint to ./vit-base-beans/checkpoint-14000
+Configuration saved in ./vit-base-beans/checkpoint-14000/config.json
+Model weights saved in ./vit-base-beans/checkpoint-14000/pytorch_model.bin
+Feature extractor saved in ./vit-base-beans/checkpoint-14000/preprocessor_config.json
+Deleting older checkpoint [vit-base-beans/checkpoint-13000] due to args.save_total_limit
+/home/yangu/miniconda3/envs/th_env/lib/python3.10/site-packages/PIL/Image.py:945: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+Saving model checkpoint to ./vit-base-beans/checkpoint-14500
+Configuration saved in ./vit-base-beans/checkpoint-14500/config.json
+Model weights saved in ./vit-base-beans/checkpoint-14500/pytorch_model.bin
+Feature extractor saved in ./vit-base-beans/checkpoint-14500/preprocessor_config.json
+Deleting older checkpoint [vit-base-beans/checkpoint-13500] due to args.save_total_limit
+/home/yangu/miniconda3/envs/th_env/lib/python3.10/site-packages/PIL/Image.py:945: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+Saving model checkpoint to ./vit-base-beans/checkpoint-15000
+Configuration saved in ./vit-base-beans/checkpoint-15000/config.json
+Model weights saved in ./vit-base-beans/checkpoint-15000/pytorch_model.bin
+Feature extractor saved in ./vit-base-beans/checkpoint-15000/preprocessor_config.json
+Deleting older checkpoint [vit-base-beans/checkpoint-14000] due to args.save_total_limit
+Saving model checkpoint to ./vit-base-beans/checkpoint-15500
+Configuration saved in ./vit-base-beans/checkpoint-15500/config.json
+Model weights saved in ./vit-base-beans/checkpoint-15500/pytorch_model.bin
+Feature extractor saved in ./vit-base-beans/checkpoint-15500/preprocessor_config.json
+Deleting older checkpoint [vit-base-beans/checkpoint-14500] due to args.save_total_limit
+/home/yangu/miniconda3/envs/th_env/lib/python3.10/site-packages/PIL/Image.py:945: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+...
+/home/yangu/miniconda3/envs/th_env/lib/python3.10/site-packages/PIL/Image.py:945: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+/home/yangu/miniconda3/envs/th_env/lib/python3.10/site-packages/PIL/Image.py:2896: DecompressionBombWarning: Image size (110718270 pixels) exceeds limit of 89478485 pixels, could be decompression bomb DOS attack.
+  warnings.warn(
+{'loss': 0.5066, 'learning_rate': 5.008795074758136e-05, 'epoch': 3.0}
+Using deprecated `--per_gpu_eval_batch_size` argument which will be removed in a future version. Using `--per_device_eval_batch_size` is preferred.
+***** Running Evaluation *****
+  Num examples = 13644
+  Batch size = 8
+Using deprecated `--per_gpu_eval_batch_size` argument which will be removed in a future version. Using `--per_device_eval_batch_size` is preferred.{'eval_loss': 0.7801440954208374, 'eval_accuracy': 0.739739079448842, 'eval_runtime': 164.8493, 'eval_samples_per_second': 82.766, 'eval_steps_per_second': 5.174, 'epoch': 3.0}
+Output exceeds the size limit. Open the full output data in a text editor
+Saving model checkpoint to ./vit-base-beans/checkpoint-20500
+Configuration saved in ./vit-base-beans/checkpoint-20500/config.json
+Model weights saved in ./vit-base-beans/checkpoint-20500/pytorch_model.bin
+Feature extractor saved in ./vit-base-beans/checkpoint-20500/preprocessor_config.json
+Deleting older checkpoint [vit-base-beans/checkpoint-19500] due to args.save_total_limit
+Saving model checkpoint to ./vit-base-beans/checkpoint-21000
+Configuration saved in ./vit-base-beans/checkpoint-21000/config.json
+Model weights saved in ./vit-base-beans/checkpoint-21000/pytorch_model.bin
+Feature extractor saved in ./vit-base-beans/checkpoint-21000/preprocessor_config.json
+Deleting older checkpoint [vit-base-beans/checkpoint-20000] due to args.save_total_limit
+/home/yangu/miniconda3/envs/th_env/lib/python3.10/site-packages/PIL/Image.py:945: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+Saving model checkpoint to ./vit-base-beans/checkpoint-21500
+Configuration saved in ./vit-base-beans/checkpoint-21500/config.json
+Model weights saved in ./vit-base-beans/checkpoint-21500/pytorch_model.bin
+Feature extractor saved in ./vit-base-beans/checkpoint-21500/preprocessor_config.json
+Deleting older checkpoint [vit-base-beans/checkpoint-20500] due to args.save_total_limit
+Saving model checkpoint to ./vit-base-beans/checkpoint-22000
+Configuration saved in ./vit-base-beans/checkpoint-22000/config.json
+Model weights saved in ./vit-base-beans/checkpoint-22000/pytorch_model.bin
+Feature extractor saved in ./vit-base-beans/checkpoint-22000/preprocessor_config.json
+Deleting older checkpoint [vit-base-beans/checkpoint-21000] due to args.save_total_limit
+/home/yangu/miniconda3/envs/th_env/lib/python3.10/site-packages/PIL/Image.py:945: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+Saving model checkpoint to ./vit-base-beans/checkpoint-22500
+...
+Feature extractor saved in ./vit-base-beans/checkpoint-27000/preprocessor_config.json
+Deleting older checkpoint [vit-base-beans/checkpoint-26000] due to args.save_total_limit
+/home/yangu/miniconda3/envs/th_env/lib/python3.10/site-packages/PIL/Image.py:945: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+{'loss': 0.2441, 'learning_rate': 1.1726766344180592e-07, 'epoch': 4.0}
+Using deprecated `--per_gpu_eval_batch_size` argument which will be removed in a future version. Using `--per_device_eval_batch_size` is preferred.
+***** Running Evaluation *****
+  Num examples = 13644
+  Batch size = 8
+Using deprecated `--per_gpu_eval_batch_size` argument which will be removed in a future version. Using `--per_device_eval_batch_size` is preferred. Training completed. Do not forget to share your model on huggingface.co/models =){'eval_loss': 1.0355395078659058, 'eval_accuracy': 0.7338024039871005, 'eval_runtime': 164.5363, 'eval_samples_per_second': 82.924, 'eval_steps_per_second': 5.184, 'epoch': 4.0}
+{'train_runtime': 9318.4694, 'train_samples_per_second': 46.853, 'train_steps_per_second': 2.928, 'train_loss': 0.6047566806385853, 'epoch': 4.0}
+TrainOutput(global_step=27288, training_loss=0.6047566806385853, metrics={'train_runtime': 9318.4694, 'train_samples_per_second': 46.853, 'train_steps_per_second': 2.928, 'train_loss': 0.6047566806385853, 'epoch': 4.0})
