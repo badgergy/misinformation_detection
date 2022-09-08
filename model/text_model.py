@@ -124,6 +124,9 @@ class MidDataset(Dataset):
 
 
 class TextClassifier(nn.Module):
+    """
+    Definition of the model
+    """
     def __init__(self, finetune=True) -> None:
         super().__init__()
         D_in, D_h, D_out = 768, 2 * MAX_LENGTH, len(LABELS)
@@ -163,13 +166,15 @@ def train(model, train_loader, val_loader, epochs=4, evaluate=True):
             optimizer.step()
         scheduler.step()
 
-        # TODO: test model on val_set
         if evaluate:
             print(evaluation(model, loss_fn, val_loader))
 
 
-# TODO: Evaluation metrics
+
 def evaluation(model, criterion, valid_loader):
+    """
+    model evaluation
+    """
     model.eval()
 
     val_accuracy = []
@@ -193,9 +198,6 @@ def evaluation(model, criterion, valid_loader):
     val_accuracy = np.mean(val_accuracy)
     return val_loss, val_accuracy
 
-def test(model, test_loader):
-    pass
-
 def compute_metrics(pred, labels):
     preds = pred.argmax(-1)
     f1 = f1_score(labels, preds, average="weighted")
@@ -210,7 +212,6 @@ def plot_confusion_matrix(y_preds, y_true):
     plt.title("Normalized confusion matrix")
     plt.show()
 
-
 def main():
     mid_train, mid_val, mid_test = load_data()
     train_loader = form_dataloader(mid_train)
@@ -219,7 +220,8 @@ def main():
     model = TextClassifier().to(DEVICE)
 
     train(model, train_loader, valid_loader)
-
+    criterion = nn.CrossEntropyLoss()
+    evaluation(model, criterion, test_loader)
 
 if __name__ == "__main__":
     main()
